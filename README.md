@@ -38,7 +38,8 @@ cat /etc/nome_do_arquivo | more
 ```
 Usado para leitura de arquivos que ocupem mais de uma tela. Quando toda a tela é ocupada, o more efetua uma pausa e permite que você pressione Enter ou espaço para continuar avançando no arquivo sendo visualizado.
 
-<div id='grep'/>  
+<div id='grep'/>
+
 ## grep
 ```
 cat /etc/nome_do_arquivo | grep "abc"

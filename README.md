@@ -80,4 +80,27 @@ Não quebra a linha.
 - ``-e``<br>
 Reconhece, por exemplo, ``\n`` e ``\t`` dentro da string e eles são processados não saída.
 
+## rm
+```
+rm nome_do_arquivo
+```
+Remove arquivos.
 
+#### parâmetros:
+- ``-r`` <br>
+Remove recursivamente toda a árvore dentro do diretório.
+``rm -r dir\dir\arq``
+
+## sleep
+```
+sleep 10
+```
+Forçar a espera de um certo período de tempo, em segundos, entre a execução de comandos.
+
+
+<br>
+<br>
+<br>
+<br>
+
+<center><h5> by João Victor Naves </h5></center>

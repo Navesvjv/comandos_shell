@@ -103,4 +103,4 @@ Forçar a espera de um certo período de tempo, em segundos, entre a execução 
 <br>
 <br>
 
-<center><h5> by João Victor Naves </h5></center>
+##### by João Victor Naves

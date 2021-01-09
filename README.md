@@ -9,7 +9,7 @@ Ordena os arquivos/diretorios do mais antigo para o mais novo.
 ls -1
 ```
 Mostra um arquivo/diretorio por linha, sem os detalhes.
-
+<br>
 ## ps
 ```
 ps

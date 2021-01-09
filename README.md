@@ -1,3 +1,5 @@
+[grep](#grep)
+
 # COMANDOS SHELL
 ## ls
 ```
@@ -36,6 +38,7 @@ cat /etc/nome_do_arquivo | more
 ```
 Usado para leitura de arquivos que ocupem mais de uma tela. Quando toda a tela é ocupada, o more efetua uma pausa e permite que você pressione Enter ou espaço para continuar avançando no arquivo sendo visualizado.
 
+<div id='grep'/>  
 ## grep
 ```
 cat /etc/nome_do_arquivo | grep "abc"
@@ -126,7 +129,8 @@ Mostra as ultimas 10 linhas do arquivo.
 
 #### parâmetros:
 - ``-n5`` <br>
-Mostra as ultimas 5 linhas do arquivo. Pode omitir o ``n``. Ex: tail -5 nome_do_arquivo
+Mostra as ultimas 5 linhas do arquivo. Pode omitir o ``n``.<br>
+Ex: ``tail -5 nome_do_arquivo``
 
 
 <br>

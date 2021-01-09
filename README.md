@@ -88,7 +88,7 @@ Remove arquivos.
 
 #### parâmetros:
 - ``-r`` <br>
-Remove recursivamente toda a árvore dentro do diretório.
+Remove recursivamente toda a árvore dentro do diretório.<br>
 ``rm -r dir\dir\arq``
 
 ## sleep
@@ -96,6 +96,37 @@ Remove recursivamente toda a árvore dentro do diretório.
 sleep 10
 ```
 Forçar a espera de um certo período de tempo, em segundos, entre a execução de comandos.
+
+## cat
+```
+cat /dir/arq
+```
+Lê dados de arquivos e exibe seu conteúdo.
+
+#### parâmetros:
+- ``-b`` <br>
+Numera as linhas do arquivo que não estam em branco.
+
+- ``-n`` <br>
+Numera todas as linhas do arquivo.
+
+- ``-A`` <br>
+Mostra caracteres especiais. Ex: ``\n`` ``\t``
+
+#### variações:
+
+- ``tac`` <br>
+A exibição do arquivo será do final para o começo.
+
+## tail
+```
+tail dir\nome_do_arquivo
+```
+Mostra as ultimas 10 linhas do arquivo.
+
+#### parâmetros:
+- ``-n5`` <br>
+Mostra as ultimas 5 linhas do arquivo. Pode omitir o ``n``. Ex: tail -5 nome_do_arquivo
 
 
 <br>

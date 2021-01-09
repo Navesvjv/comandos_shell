@@ -28,13 +28,13 @@ Mostra processos de todos os usuários e também aqueles processos que não est�
 ```
 cat /etc/nome_do_arquivo | grep "abc"
 ```
-O resultado do comando ``Cat`` será a entrada do comando ``grep``
+O resultado do comando ``Cat`` será a entrada do comando ``grep``.
 
 ## more
 ```
 cat /etc/nome_do_arquivo | more
 ```
-O comando ``more`` pode ser usado como comando para leitura de arquivos que ocupem mais de uma tela. Quando toda a tela é ocupada, o more efetua uma pausa e permite que você pressione Enter ou espaço para continuar avançando no arquivo sendo visualizado.
+Usado para leitura de arquivos que ocupem mais de uma tela. Quando toda a tela é ocupada, o more efetua uma pausa e permite que você pressione Enter ou espaço para continuar avançando no arquivo sendo visualizado.
 
 ## grep
 ```
@@ -45,10 +45,21 @@ Procura por trechos de texto (strings) dentro de arquivos ou diretórios e retor
 #### variações:
 
 - ``egrep`` <br>
-procura um padrão de texto, usando expressões regulares estendidas para executar a correspondência. Executar o egrep é equivalente a executar o grep com a opção -E
+procura um padrão de texto, usando expressões regulares estendidas para executar a correspondência. Executar o egrep é equivalente a executar o grep com a opção -E.
 
 - ``fgrep`` <br>
-procura por cadeias de caracteres fixos em um arquivo ou arquivos. “Caractere fixo” significa que a string é interpretada literalmente
+procura por cadeias de caracteres fixos em um arquivo ou arquivos. “Caractere fixo” significa que a string é interpretada literalmente.
+
+## mkdir
+```
+mkdir nome_do_diretorio
+```
+Cria diretórios.
+
+#### parâmetros:
+- ``-p`` <br>
+Cria toda a árvore de diretório.<br>
+``mkdir \dir\dir\dir\arq``
 
 ## touch
 ```
@@ -65,3 +76,8 @@ Mostra texto na saída padrão seguido por uma nova linha.
 #### parâmetros:
 - ``-n`` <br>
 Não quebra a linha.
+
+- ``-e``<br>
+Reconhece, por exemplo, ``\n`` e ``\t`` dentro da string e eles são processados não saída.
+
+

@@ -1,0 +1,1 @@
+setfacl -R -m u:joao:rwx /noma-da-pasta
